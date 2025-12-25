@@ -1,0 +1,19 @@
+{
+    "name": "article-optimizer",
+    "version": "1.0.0",
+    "description": "Article optimization using Google Search and LLM",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "node index.js"
+    },
+    "keywords": ["article", "seo", "optimization"],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.6.2",
+      "cheerio": "^1.0.0-rc.12",
+      "dotenv": "^16.3.1",
+      "puppeteer": "^21.6.1"
+    }
+  }
