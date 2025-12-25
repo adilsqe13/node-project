@@ -138,7 +138,7 @@ class LLMService {
    * @returns {string} Enhanced content
    */
   createFallbackContent(originalArticle, referenceArticles) {
-    let content = `This content was generated automatically. The content upgrade could not be completed because the available Google Gemini API credits have been exhausted. To continue upgrading content, please upgrade your Gemini API plan.`;
+    let content = `new update.`;
     
     return content;
   }
